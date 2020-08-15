@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+    <key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<key>viewModelName</key>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___ViewModel.swift</string>
+			<key>Name</key>
+			<string>Files:</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<key>controllerName</key>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Controller.swift</string>
+			<key>Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<key>viewName</key>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___View.swift</string>
+			<key>Name</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<key>xibName</key>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___View.xib</string>
+			<key>Name</key>
+			<string></string>
+		</dict>
+    </array>
+</dict>
+</plist>
